@@ -1,0 +1,70 @@
+.manage-users-page {
+  min-height: 100vh;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+.manage-users-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.manage-users-header {
+  margin-bottom: 30px;
+}
+
+.manage-users-header h1 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.manage-users-header p {
+  color: #555555;
+}
+
+.manage-users-actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.user-action-card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-left: 5px solid #ff1e1e;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.08);
+}
+
+.user-action-card h3 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.user-action-card p {
+  color: #555555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.user-action-card a,
+.back-dashboard {
+  display: inline-block;
+  background: #ff1e1e;
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.user-action-card a:hover,
+.back-dashboard:hover {
+  background: #cc0000;
+}
+
+.back-dashboard {
+  margin-top: 30px;
+}
